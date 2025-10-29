@@ -1,0 +1,2612 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_76edbdf3b4e9286ee2092ea15829d0ff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_76edbdf3b4e9286ee2092ea15829d0ff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_76edbdf3b4e9286ee2092ea15829d0ff = L.map(
+                "map_76edbdf3b4e9286ee2092ea15829d0ff",
+                {
+                    center: [53.5, -8.2],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_76edbdf3b4e9286ee2092ea15829d0ff);
+
+            
+
+        
+    
+            var tile_layer_a73f31539a47695a588702faea97bb62 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a73f31539a47695a588702faea97bb62.addTo(map_76edbdf3b4e9286ee2092ea15829d0ff);
+        
+    
+            var feature_group_8e9eb1cb334bc4f28af36d9929401044 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_3871f321897f936fe2c07ea176f34c69 = L.marker(
+                [53.76, -8.77],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_f8806b2cb0ed6df7672c7ba9e879299e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3871f321897f936fe2c07ea176f34c69.bindTooltip(
+                `<div>
+                     Claire Home
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3871f321897f936fe2c07ea176f34c69.setIcon(icon_f8806b2cb0ed6df7672c7ba9e879299e);
+            
+    
+            var poly_line_395afa782a9bda4e8344c47133dac96f = L.polyline(
+                [[53.76, -8.77], [53.87275332, -9.071804594]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_4fb56218180cf87965a3eafc41544206 = L.marker(
+                [53.87275332, -9.071804594],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_538df632ce3194771e43ec3f1a3a48f5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4fb56218180cf87965a3eafc41544206.bindTooltip(
+                `<div>
+                     Claire • Day 1 • Stop 1: MOTCH ~ Bellavary Bohola
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4fb56218180cf87965a3eafc41544206.setIcon(icon_538df632ce3194771e43ec3f1a3a48f5);
+            
+    
+            var poly_line_69cf12432cca04109d8841d3219222c6 = L.polyline(
+                [[53.87275332, -9.071804594], [54.00958557, -8.767939748]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_affeba0b6e4d759136252e37f4234fc1 = L.marker(
+                [54.00958557, -8.767939748],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_8614e024df65a06310ed82c98577e0e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_affeba0b6e4d759136252e37f4234fc1.bindTooltip(
+                `<div>
+                     Claire • Day 1 • Stop 2: SO009 ~ Drimbane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_affeba0b6e4d759136252e37f4234fc1.setIcon(icon_8614e024df65a06310ed82c98577e0e6);
+            
+    
+            var poly_line_74481d9b33fbde6132f38c14f71b76cc = L.polyline(
+                [[54.00958557, -8.767939748], [54.01880865, -8.32664741]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_284378e829ca2c32b57fbaedd4c0b0c0 = L.marker(
+                [54.01880865, -8.32664741],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_11d0495d7c1dcb00091d7681a7635f72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_284378e829ca2c32b57fbaedd4c0b0c0.bindTooltip(
+                `<div>
+                     Claire • Day 1 • Stop 3: SO018 ~ Curlew Mts.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_284378e829ca2c32b57fbaedd4c0b0c0.setIcon(icon_11d0495d7c1dcb00091d7681a7635f72);
+            
+    
+            var poly_line_164d09125d56e016aa0559891b6ec1e0 = L.polyline(
+                [[54.01880865, -8.32664741], [53.97011713, -8.208994781]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_14f281d44b3052fec27fc9f2637fddb0 = L.marker(
+                [53.97011713, -8.208994781],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_f975fd5c674527e31d8f055a9e5cef73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_14f281d44b3052fec27fc9f2637fddb0.bindTooltip(
+                `<div>
+                     Claire • Day 1 • Stop 4: RNK8A ~ Ardcarn K8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_14f281d44b3052fec27fc9f2637fddb0.setIcon(icon_f975fd5c674527e31d8f055a9e5cef73);
+            
+    
+            var poly_line_23b4feb79b6b99d087abf69236eb2d70 = L.polyline(
+                [[53.97011713, -8.208994781], [53.56192828, -6.180152135]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_63b56100b29da7d760e235f915d727ef = L.marker(
+                [53.56192828, -6.180152135],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_4b17a9dd3ffe09befad377ccaf183342 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_63b56100b29da7d760e235f915d727ef.bindTooltip(
+                `<div>
+                     Claire • Day 1 • Stop 5: DNMOW ~ Man O War Palmerstown Skerries
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_63b56100b29da7d760e235f915d727ef.setIcon(icon_4b17a9dd3ffe09befad377ccaf183342);
+            
+    
+            var poly_line_f57fcd743b3af983619da635f54ee9ae = L.polyline(
+                [[53.56192828, -6.180152135], [53.50472117, -6.1960025]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_684935eb67d6fffc7998b7a6153c6a35 = L.marker(
+                [53.50472117, -6.1960025],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_4dba093ac17bc88cb6813727cb2caaaf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_684935eb67d6fffc7998b7a6153c6a35.bindTooltip(
+                `<div>
+                     Claire • Day 1 • Stop 6: DX264 ~ Hannon Blakescross
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_684935eb67d6fffc7998b7a6153c6a35.setIcon(icon_4dba093ac17bc88cb6813727cb2caaaf);
+            
+    
+            var poly_line_721767e9d7e74551c66dd45664115aaf = L.polyline(
+                [[53.50472117, -6.1960025], [53.44403224, -6.192601158]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_0ec53e5bef3f0a2573043b150941b19c = L.marker(
+                [53.44403224, -6.192601158],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_1c13aa685bffe45febf8ea552bec498f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0ec53e5bef3f0a2573043b150941b19c.bindTooltip(
+                `<div>
+                     Claire • Day 2 • Stop 1: DN795 ~ Peafield Farm - Vodafone
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0ec53e5bef3f0a2573043b150941b19c.setIcon(icon_1c13aa685bffe45febf8ea552bec498f);
+            
+    
+            var poly_line_642abf941938ab5ab1f3fd545fbbe539 = L.polyline(
+                [[53.44403224, -6.192601158], [53.39356735, -6.147535371]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_775b0737958fbff5a2ca7648d814fbfd = L.marker(
+                [53.39356735, -6.147535371],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_d0e6fe3033b1488f4effa0a51318cfe2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_775b0737958fbff5a2ca7648d814fbfd.bindTooltip(
+                `<div>
+                     Claire • Day 2 • Stop 2: DNBDE ~ Baldoyle Unit 60 Baldoyle Industrial Estate
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_775b0737958fbff5a2ca7648d814fbfd.setIcon(icon_d0e6fe3033b1488f4effa0a51318cfe2);
+            
+    
+            var poly_line_b0c11996bfe9fdbea22ffc432a9f6d5a = L.polyline(
+                [[53.39356735, -6.147535371], [53.38884247, -6.17860091]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_2ce8ef18913597a34b68443205fc21d7 = L.marker(
+                [53.38884247, -6.17860091],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_5e281301fd82e64331603f824fcbfc4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2ce8ef18913597a34b68443205fc21d7.bindTooltip(
+                `<div>
+                     Claire • Day 2 • Stop 3: DN836 ~ St.Monicas GAA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2ce8ef18913597a34b68443205fc21d7.setIcon(icon_5e281301fd82e64331603f824fcbfc4d);
+            
+    
+            var poly_line_6deab0be52dff470e6087ad905d80701 = L.polyline(
+                [[53.38884247, -6.17860091], [53.37905403, -6.190846022]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_d3af056dbec94a9855e12e34e1389533 = L.marker(
+                [53.37905403, -6.190846022],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_2fbd985ca2ab376a19866fbdbcc4c5b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d3af056dbec94a9855e12e34e1389533.bindTooltip(
+                `<div>
+                     Claire • Day 2 • Stop 4: DN852 ~ Brookwood House
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d3af056dbec94a9855e12e34e1389533.setIcon(icon_2fbd985ca2ab376a19866fbdbcc4c5b7);
+            
+    
+            var poly_line_92fd0da5f3cf5ecd9822972f7bdce3b9 = L.polyline(
+                [[53.37905403, -6.190846022], [53.35279538, -6.196118702]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_2af808585639aa289cb54683e4d4d00a = L.marker(
+                [53.35279538, -6.196118702],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_dd235ff7bffb5ebeb047e7c5e08a007a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_2af808585639aa289cb54683e4d4d00a.bindTooltip(
+                `<div>
+                     Claire • Day 2 • Stop 5: DNDOC ~ Dublin Docks
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2af808585639aa289cb54683e4d4d00a.setIcon(icon_dd235ff7bffb5ebeb047e7c5e08a007a);
+            
+    
+            var poly_line_41fdebec03144d1623d0ffc62aebaa19 = L.polyline(
+                [[53.35279538, -6.196118702], [53.37419487, -6.293502497]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_7af8858bd5402c0f56d3250a54253b91 = L.marker(
+                [53.37419487, -6.293502497],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_265e82cc8a8c344b0506e9cb9b685799 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7af8858bd5402c0f56d3250a54253b91.bindTooltip(
+                `<div>
+                     Claire • Day 2 • Stop 6: DN501 ~ Dublin Industrial Estate-Tolka Valley
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7af8858bd5402c0f56d3250a54253b91.setIcon(icon_265e82cc8a8c344b0506e9cb9b685799);
+            
+    
+            var poly_line_16ecc9e65f2990d4a68b6e1e3fe6de6e = L.polyline(
+                [[53.37419487, -6.293502497], [53.32134695, -6.368579467]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_0a55f2843db0ebd32fa54caa705b867b = L.marker(
+                [53.32134695, -6.368579467],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_b056a8c05b75831711863d54ceebbf4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0a55f2843db0ebd32fa54caa705b867b.bindTooltip(
+                `<div>
+                     Claire • Day 3 • Stop 1: DNWSE ~ Western Industrial Estate holly Road
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0a55f2843db0ebd32fa54caa705b867b.setIcon(icon_b056a8c05b75831711863d54ceebbf4b);
+            
+    
+            var poly_line_a04daef0312dce3d618d6b3ddf1c71a3 = L.polyline(
+                [[53.32134695, -6.368579467], [53.33284784, -6.356056186]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_7af396649993c0ff5dd8c1d103965581 = L.marker(
+                [53.33284784, -6.356056186],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_efacf52c15b4e152a187bbefb80bc627 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_7af396649993c0ff5dd8c1d103965581.bindTooltip(
+                `<div>
+                     Claire • Day 3 • Stop 2: DN116 ~ Semperit 38k V Stn Dublin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7af396649993c0ff5dd8c1d103965581.setIcon(icon_efacf52c15b4e152a187bbefb80bc627);
+            
+    
+            var poly_line_0b30927bb969db75546e5245d3220a26 = L.polyline(
+                [[53.33284784, -6.356056186], [53.31397234, -6.344657656]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_5f1a30b040d56a86081669b62faade21 = L.marker(
+                [53.31397234, -6.344657656],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_6c60a6af9ef3f4c8ac1c930426ce8cc2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5f1a30b040d56a86081669b62faade21.bindTooltip(
+                `<div>
+                     Claire • Day 3 • Stop 3: DN302 ~ Ballymount Innovative Print
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5f1a30b040d56a86081669b62faade21.setIcon(icon_6c60a6af9ef3f4c8ac1c930426ce8cc2);
+            
+    
+            var poly_line_deff68066cb1a78c4c41472a3668a516 = L.polyline(
+                [[53.31397234, -6.344657656], [53.28933143, -6.266788805]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_6de42abdc9bc982f4a85145c44c32443 = L.marker(
+                [53.28933143, -6.266788805],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_09d2e4a54db48c3c2d7132c7520d767b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6de42abdc9bc982f4a85145c44c32443.bindTooltip(
+                `<div>
+                     Claire • Day 3 • Stop 4: DNNGE ~ Nutgrove Shopping Centre Nutgrove Avenue D14
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6de42abdc9bc982f4a85145c44c32443.setIcon(icon_09d2e4a54db48c3c2d7132c7520d767b);
+            
+    
+            var poly_line_53074f8b81918eb459debe4057960b8a = L.polyline(
+                [[53.28933143, -6.266788805], [53.26865755, -6.394074271]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_9fdf01cceeb75d515160ff6b2c1a6c19 = L.marker(
+                [53.26865755, -6.394074271],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_a32bd365c5aad21f427b88843d5c17d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9fdf01cceeb75d515160ff6b2c1a6c19.bindTooltip(
+                `<div>
+                     Claire • Day 3 • Stop 5: DN343 ~ Killinardan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9fdf01cceeb75d515160ff6b2c1a6c19.setIcon(icon_a32bd365c5aad21f427b88843d5c17d0);
+            
+    
+            var poly_line_16c133ac733b32fe43eb171c40f7092d = L.polyline(
+                [[53.26865755, -6.394074271], [53.25407384, -6.457403356]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_9e9e8a21b5a8d21dea3ad7c9b2f1ae68 = L.marker(
+                [53.25407384, -6.457403356],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_b7a4a9dd0c771d48faa975cf31775f10 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_9e9e8a21b5a8d21dea3ad7c9b2f1ae68.bindTooltip(
+                `<div>
+                     Claire • Day 3 • Stop 6: DN180 ~ Crooksling/Glenacreen
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9e9e8a21b5a8d21dea3ad7c9b2f1ae68.setIcon(icon_b7a4a9dd0c771d48faa975cf31775f10);
+            
+    
+            var poly_line_abf262399244b9baa0d9313f810f9f43 = L.polyline(
+                [[53.25407384, -6.457403356], [53.40472168, -7.998111473]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_17ca81a2ab59495ef22b3fc3dab02ac9 = L.marker(
+                [53.40472168, -7.998111473],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_4181c04d4c64e41d8e971c7c85b206f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_17ca81a2ab59495ef22b3fc3dab02ac9.bindTooltip(
+                `<div>
+                     Claire • Day 4 • Stop 1: RN054 ~ Crannagh Beg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_17ca81a2ab59495ef22b3fc3dab02ac9.setIcon(icon_4181c04d4c64e41d8e971c7c85b206f1);
+            
+    
+            var poly_line_7f630c44039c42ef469be6819860327b = L.polyline(
+                [[53.40472168, -7.998111473], [53.476846, -8.072012]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var marker_f0ba46f9814e975f7b406b08984561f4 = L.marker(
+                [53.476846, -8.072012],
+                {
+}
+            ).addTo(feature_group_8e9eb1cb334bc4f28af36d9929401044);
+        
+    
+            var icon_9d5d63db8d2ad31ff92d94f71083a2a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f0ba46f9814e975f7b406b08984561f4.bindTooltip(
+                `<div>
+                     Claire • Day 4 • Stop 2: RN079 ~ Carrowkeeny Hill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f0ba46f9814e975f7b406b08984561f4.setIcon(icon_9d5d63db8d2ad31ff92d94f71083a2a9);
+            
+    
+            feature_group_8e9eb1cb334bc4f28af36d9929401044.addTo(map_76edbdf3b4e9286ee2092ea15829d0ff);
+        
+    
+            var feature_group_ccd395e196552fda63860145145bd3c1 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_bbe7e72b2d953a65dec8898cb2b8bfab = L.marker(
+                [53.78, -7.77],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_e9e7de3a4fdf5e275e3a139bf30bb724 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bbe7e72b2d953a65dec8898cb2b8bfab.bindTooltip(
+                `<div>
+                     Mikie Home
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bbe7e72b2d953a65dec8898cb2b8bfab.setIcon(icon_e9e7de3a4fdf5e275e3a139bf30bb724);
+            
+    
+            var poly_line_25bb76614fec06da33a5aa7b4d20b690 = L.polyline(
+                [[53.78, -7.77], [53.71339006, -7.19535762]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_36ec9169e7c2c145e47e20b82ce111c4 = L.marker(
+                [53.71339006, -7.19535762],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_fdb9fb0c4788c064e5897a41711f16e4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_36ec9169e7c2c145e47e20b82ce111c4.bindTooltip(
+                `<div>
+                     Mikie • Day 1 • Stop 1: MH017 ~ Ballany Greenan Oldcastle
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36ec9169e7c2c145e47e20b82ce111c4.setIcon(icon_fdb9fb0c4788c064e5897a41711f16e4);
+            
+    
+            var poly_line_a9f86341ead19b32b97b3dbf19678709 = L.polyline(
+                [[53.71339006, -7.19535762], [53.64568271, -6.705590569]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_5b6475a46948e7eb5f6eaff517e47a11 = L.marker(
+                [53.64568271, -6.705590569],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_0eb91f223743e20b634b4f2a2f164d87 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5b6475a46948e7eb5f6eaff517e47a11.bindTooltip(
+                `<div>
+                     Mikie • Day 1 • Stop 2: MH035 ~ Mullaghboy Ind. Est.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b6475a46948e7eb5f6eaff517e47a11.setIcon(icon_0eb91f223743e20b634b4f2a2f164d87);
+            
+    
+            var poly_line_56a318451b4cf6f829b45ae0a5374790 = L.polyline(
+                [[53.64568271, -6.705590569], [53.79800567, -6.732471355]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_1097000e46ccbf65bf937ccf48703fc3 = L.marker(
+                [53.79800567, -6.732471355],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_fb1c66001c288c48e1ebb773bb0f3e4b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1097000e46ccbf65bf937ccf48703fc3.bindTooltip(
+                `<div>
+                     Mikie • Day 1 • Stop 3: MH031 ~ Headstown Nobber
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1097000e46ccbf65bf937ccf48703fc3.setIcon(icon_fb1c66001c288c48e1ebb773bb0f3e4b);
+            
+    
+            var poly_line_3148a36c380b406a65b1be994029dc7c = L.polyline(
+                [[53.79800567, -6.732471355], [53.86881262, -6.752800246]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_d7a28604b45799b98432a73345c923eb = L.marker(
+                [53.86881262, -6.752800246],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_e4dfc070a8104f2a233a82c11e381ded = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d7a28604b45799b98432a73345c923eb.bindTooltip(
+                `<div>
+                     Mikie • Day 1 • Stop 4: MH022 ~ Carrickleck Nobber
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d7a28604b45799b98432a73345c923eb.setIcon(icon_e4dfc070a8104f2a233a82c11e381ded);
+            
+    
+            var poly_line_dd0ee3a94cbba7c4afffc10eae59533b = L.polyline(
+                [[53.86881262, -6.752800246], [53.72442773, -6.528838387]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_249c9849f62e449259c042a426749d26 = L.marker(
+                [53.72442773, -6.528838387],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_1c94604409232b57f372038a00a1cadb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_249c9849f62e449259c042a426749d26.bindTooltip(
+                `<div>
+                     Mikie • Day 1 • Stop 5: MH010 ~ Littlewood Slane
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_249c9849f62e449259c042a426749d26.setIcon(icon_1c94604409232b57f372038a00a1cadb);
+            
+    
+            var poly_line_ea27eb3cf4602238ba4883626915f9f6 = L.polyline(
+                [[53.72442773, -6.528838387], [53.74052599, -6.408358556]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_10d6def630a60c024ddb4e4ae2bcf8b6 = L.marker(
+                [53.74052599, -6.408358556],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_1413066510326867dc2221a5ca8c704e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_10d6def630a60c024ddb4e4ae2bcf8b6.bindTooltip(
+                `<div>
+                     Mikie • Day 1 • Stop 6: LH066 ~ Hill of Rath
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_10d6def630a60c024ddb4e4ae2bcf8b6.setIcon(icon_1413066510326867dc2221a5ca8c704e);
+            
+    
+            var poly_line_29410af623653aa585d43333f0517b7a = L.polyline(
+                [[53.74052599, -6.408358556], [53.78549816, -6.270236951]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_c576ca8a62cd6625cfd4cf7d0fbd3b6e = L.marker(
+                [53.78549816, -6.270236951],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_921768d38224f2a2459b6140d8c19274 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c576ca8a62cd6625cfd4cf7d0fbd3b6e.bindTooltip(
+                `<div>
+                     Mikie • Day 2 • Stop 1: LH011 ~ Almondstown SDH near Clogherhead
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c576ca8a62cd6625cfd4cf7d0fbd3b6e.setIcon(icon_921768d38224f2a2459b6140d8c19274);
+            
+    
+            var poly_line_af1d1a718792ec8eaf6ee0e0e7301dd3 = L.polyline(
+                [[53.78549816, -6.270236951], [53.64570597, -6.297574676]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_1b1870f8e445302d5456d6531392d664 = L.marker(
+                [53.64570597, -6.297574676],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_3f724103e2de90b8acbab377bb83fa82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_1b1870f8e445302d5456d6531392d664.bindTooltip(
+                `<div>
+                     Mikie • Day 2 • Stop 2: MH020 ~ Lisdornan Moorechurch Julianstown
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1b1870f8e445302d5456d6531392d664.setIcon(icon_3f724103e2de90b8acbab377bb83fa82);
+            
+    
+            var poly_line_a2634b8a029bc9a69cf15c2a660f509d = L.polyline(
+                [[53.64570597, -6.297574676], [53.51208482, -6.375461944]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_cb9db851c59845bb0cdf5d2548ea570a = L.marker(
+                [53.51208482, -6.375461944],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_7992be3ab7bfe763935cab0bdb8db554 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_cb9db851c59845bb0cdf5d2548ea570a.bindTooltip(
+                `<div>
+                     Mikie • Day 2 • Stop 3: MH042 ~ Ashbourne Rugby Club
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb9db851c59845bb0cdf5d2548ea570a.setIcon(icon_7992be3ab7bfe763935cab0bdb8db554);
+            
+    
+            var poly_line_70b5d5d76f59468a398f298618d6152a = L.polyline(
+                [[53.51208482, -6.375461944], [53.45796745, -6.498696387]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_0a1e0b6b513eb988eab67d200afc953b = L.marker(
+                [53.45796745, -6.498696387],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_43af12fb6f083fface79ed9e923ab658 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0a1e0b6b513eb988eab67d200afc953b.bindTooltip(
+                `<div>
+                     Mikie • Day 2 • Stop 4: MH012 ~ Quarrylands
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0a1e0b6b513eb988eab67d200afc953b.setIcon(icon_43af12fb6f083fface79ed9e923ab658);
+            
+    
+            var poly_line_ca73c6fe985254da3fafda7b538ac632 = L.polyline(
+                [[53.45796745, -6.498696387], [52.56732791, -6.22460229]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_729736ee96dcaba3ba87e69ce15a6e53 = L.marker(
+                [52.56732791, -6.22460229],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_0e389033e774918531640808271ee787 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_729736ee96dcaba3ba87e69ce15a6e53.bindTooltip(
+                `<div>
+                     Mikie • Day 2 • Stop 5: WX032 ~ Cahore
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_729736ee96dcaba3ba87e69ce15a6e53.setIcon(icon_0e389033e774918531640808271ee787);
+            
+    
+            var poly_line_f2b87966c1710195d62a2bb6e3075936 = L.polyline(
+                [[52.56732791, -6.22460229], [52.2991799698568, -6.51328074609375]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_071244096a95755f4160e491b2a3bc65 = L.marker(
+                [52.2991799698568, -6.51328074609375],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_a15f23a502b7488865b05a417a586d27 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_071244096a95755f4160e491b2a3bc65.bindTooltip(
+                `<div>
+                     Mikie • Day 2 • Stop 6: WX158 ~ Johnstown Castle Demesne
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_071244096a95755f4160e491b2a3bc65.setIcon(icon_a15f23a502b7488865b05a417a586d27);
+            
+    
+            var poly_line_6f99d9755b4bf4bb41a1d85a84dd2704 = L.polyline(
+                [[52.2991799698568, -6.51328074609375], [52.21364915, -6.85461824]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_5803e0f1c7855566c5cb058cfa9899ac = L.marker(
+                [52.21364915, -6.85461824],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_20e516bf33db9a4ea326cb61ba66f783 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5803e0f1c7855566c5cb058cfa9899ac.bindTooltip(
+                `<div>
+                     Mikie • Day 3 • Stop 1: WX068 ~ Dungulph Saltmills
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5803e0f1c7855566c5cb058cfa9899ac.setIcon(icon_20e516bf33db9a4ea326cb61ba66f783);
+            
+    
+            var poly_line_b333b3159d8064fcf4c73622167a1d23 = L.polyline(
+                [[52.21364915, -6.85461824], [53.4672636, -8.536679914]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_e4081c2fcafa6219e25c666cc661a537 = L.marker(
+                [53.4672636, -8.536679914],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_9480c6d901f5c97cbce4af07e9a9d1f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e4081c2fcafa6219e25c666cc661a537.bindTooltip(
+                `<div>
+                     Mikie • Day 3 • Stop 2: GY045 ~ Ballymageraghty Mountbellew
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e4081c2fcafa6219e25c666cc661a537.setIcon(icon_9480c6d901f5c97cbce4af07e9a9d1f6);
+            
+    
+            var poly_line_0b80dc208073ed0a5e46853add5bf01a = L.polyline(
+                [[53.4672636, -8.536679914], [53.30550964, -8.829636811]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_c5466c2e7c92247a190eef065ffea9b8 = L.marker(
+                [53.30550964, -8.829636811],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_a8046b37258701af8fa9fc057970ad62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c5466c2e7c92247a190eef065ffea9b8.bindTooltip(
+                `<div>
+                     Mikie • Day 3 • Stop 3: GY048 ~ Knocknacreeva Athenry
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c5466c2e7c92247a190eef065ffea9b8.setIcon(icon_a8046b37258701af8fa9fc057970ad62);
+            
+    
+            var poly_line_bda08bf8d73dae44819083207ed83e02 = L.polyline(
+                [[53.30550964, -8.829636811], [53.15859119, -8.91065326]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_ae852b7f35e4f644590f1c35de075fe0 = L.marker(
+                [53.15859119, -8.91065326],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_0a12aac6dd8ddc067db20e806c6d56a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ae852b7f35e4f644590f1c35de075fe0.bindTooltip(
+                `<div>
+                     Mikie • Day 3 • Stop 4: GY054 ~ Ballyclery Kinvarra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ae852b7f35e4f644590f1c35de075fe0.setIcon(icon_0a12aac6dd8ddc067db20e806c6d56a8);
+            
+    
+            var poly_line_78c752684bbaf761088efc397159ade6 = L.polyline(
+                [[53.15859119, -8.91065326], [53.33426756, -9.77017364]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_c6aee773d75afcee66424c247bced9a0 = L.marker(
+                [53.33426756, -9.77017364],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_f7d23f416a045148372c9504862fea09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c6aee773d75afcee66424c247bced9a0.bindTooltip(
+                `<div>
+                     Mikie • Day 3 • Stop 5: GY019 ~ Ardmore Kilkieran Letterpibrum T/L
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c6aee773d75afcee66424c247bced9a0.setIcon(icon_f7d23f416a045148372c9504862fea09);
+            
+    
+            var poly_line_8323013f00802b2f14a659616acd1043 = L.polyline(
+                [[53.33426756, -9.77017364], [53.48378975, -9.011902402]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_ddffbc08f0260a48d96ce86f8e10ae94 = L.marker(
+                [53.48378975, -9.011902402],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_bb1f24cb209c8a05bf904106151d1523 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_ddffbc08f0260a48d96ce86f8e10ae94.bindTooltip(
+                `<div>
+                     Mikie • Day 3 • Stop 6: GY066 ~ Kildrum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ddffbc08f0260a48d96ce86f8e10ae94.setIcon(icon_bb1f24cb209c8a05bf904106151d1523);
+            
+    
+            var poly_line_40ca974bf15a9a085a4197f46b9bbfaa = L.polyline(
+                [[53.48378975, -9.011902402], [54.4572267, -8.343079832]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_eb560d02fc823919596e3e7f7df6752a = L.marker(
+                [54.4572267, -8.343079832],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_a911bd31b0a634caa2079908a77c13c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_eb560d02fc823919596e3e7f7df6752a.bindTooltip(
+                `<div>
+                     Mikie • Day 4 • Stop 1: LMWHE ~ Wardhouse Tullaghan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eb560d02fc823919596e3e7f7df6752a.setIcon(icon_a911bd31b0a634caa2079908a77c13c3);
+            
+    
+            var poly_line_f3fa6d9eb942510909acea9105203a34 = L.polyline(
+                [[54.4572267, -8.343079832], [54.08457396, -8.000617198]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var marker_b44fd5004ec4e0e845ac228ef48af56b = L.marker(
+                [54.08457396, -8.000617198],
+                {
+}
+            ).addTo(feature_group_ccd395e196552fda63860145145bd3c1);
+        
+    
+            var icon_025444b5a805262adf4a37098c489e71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b44fd5004ec4e0e845ac228ef48af56b.bindTooltip(
+                `<div>
+                     Mikie • Day 4 • Stop 2: LM013 ~ Slieve Anierin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b44fd5004ec4e0e845ac228ef48af56b.setIcon(icon_025444b5a805262adf4a37098c489e71);
+            
+    
+            feature_group_ccd395e196552fda63860145145bd3c1.addTo(map_76edbdf3b4e9286ee2092ea15829d0ff);
+        
+    
+            var feature_group_4f436757d9541d66f25f603971d59a18 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_8a1154e080d39f9b0b98580b92faa402 = L.marker(
+                [53.53, -7.35],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_9fd6165def3ed5dbe6afe0247d2a44ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8a1154e080d39f9b0b98580b92faa402.bindTooltip(
+                `<div>
+                     Dejan Home
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8a1154e080d39f9b0b98580b92faa402.setIcon(icon_9fd6165def3ed5dbe6afe0247d2a44ad);
+            
+    
+            var poly_line_81af4a2db556afefc2be056dd3779977 = L.polyline(
+                [[53.53, -7.35], [53.57412517, -7.431486925]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_4083c5838a63e78a233cd7fb06626871 = L.marker(
+                [53.57412517, -7.431486925],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_dd01526e96e0f649d52c450c48e6b633 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4083c5838a63e78a233cd7fb06626871.bindTooltip(
+                `<div>
+                     Dejan • Day 1 • Stop 1: WH050 ~ Frewin Hill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4083c5838a63e78a233cd7fb06626871.setIcon(icon_dd01526e96e0f649d52c450c48e6b633);
+            
+    
+            var poly_line_6cee5c6623b31ac3307237620e2959fc = L.polyline(
+                [[53.57412517, -7.431486925], [53.52121266, -7.823008826]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_d7ef6d8f34069f183a467c2b154313b2 = L.marker(
+                [53.52121266, -7.823008826],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_1b4f2b3786d3207a9ca913a558c17d94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d7ef6d8f34069f183a467c2b154313b2.bindTooltip(
+                `<div>
+                     Dejan • Day 1 • Stop 2: WH022 ~ Busy Mill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d7ef6d8f34069f183a467c2b154313b2.setIcon(icon_1b4f2b3786d3207a9ca913a558c17d94);
+            
+    
+            var poly_line_56dd49bb8e89253a6b8680aafbd9e2bc = L.polyline(
+                [[53.52121266, -7.823008826], [53.47021335, -7.755563862]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_6384084186295b875baa7c68cd343616 = L.marker(
+                [53.47021335, -7.755563862],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_0bdebb17f0a81b21320f809d724bc891 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_6384084186295b875baa7c68cd343616.bindTooltip(
+                `<div>
+                     Dejan • Day 1 • Stop 3: WH027 ~ Carrickaheha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6384084186295b875baa7c68cd343616.setIcon(icon_0bdebb17f0a81b21320f809d724bc891);
+            
+    
+            var poly_line_2d5214675f53411b26e4f2b6ed56bd91 = L.polyline(
+                [[53.47021335, -7.755563862], [53.37581444, -7.441628897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_b50a4416dc2cb7ee9b17263367cca163 = L.marker(
+                [53.37581444, -7.441628897],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_5297d5fca2964d6bfc5057680edeb8a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_b50a4416dc2cb7ee9b17263367cca163.bindTooltip(
+                `<div>
+                     Dejan • Day 1 • Stop 4: WH029 ~ Ballymachugh Garryduff Kilbeggan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b50a4416dc2cb7ee9b17263367cca163.setIcon(icon_5297d5fca2964d6bfc5057680edeb8a6);
+            
+    
+            var poly_line_95800df0298fdf0f0ab584a08a3a41b1 = L.polyline(
+                [[53.37581444, -7.441628897], [53.4750218, -7.037220075]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_c0cc9d732d4c6372621906c2663608e5 = L.marker(
+                [53.4750218, -7.037220075],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_0715711cd8fce9a017c2f2e0696e097e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_c0cc9d732d4c6372621906c2663608e5.bindTooltip(
+                `<div>
+                     Dejan • Day 1 • Stop 5: MH096 ~ Kilwarden Hill of Down-Coillte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0cc9d732d4c6372621906c2663608e5.setIcon(icon_0715711cd8fce9a017c2f2e0696e097e);
+            
+    
+            var poly_line_c04ed684751712596d957cfd700a1df2 = L.polyline(
+                [[53.4750218, -7.037220075], [53.49317739, -6.868643896]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_f82f043cf72184c7299e9e3ba87d84b1 = L.marker(
+                [53.49317739, -6.868643896],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_00528b1cd20289380b21cfb6e3903113 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f82f043cf72184c7299e9e3ba87d84b1.bindTooltip(
+                `<div>
+                     Dejan • Day 1 • Stop 6: MH097 ~ Cloncowan Castlerickard Longwood Rathmolyon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f82f043cf72184c7299e9e3ba87d84b1.setIcon(icon_00528b1cd20289380b21cfb6e3903113);
+            
+    
+            var poly_line_607689d4ac410c51a1118fadd09d0771 = L.polyline(
+                [[53.49317739, -6.868643896], [53.46896095, -6.756407078]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_3494e5c78be41d2d04dc76738d7352a5 = L.marker(
+                [53.46896095, -6.756407078],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_526bfcfd858da373ee61a8ef88d58de5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_3494e5c78be41d2d04dc76738d7352a5.bindTooltip(
+                `<div>
+                     Dejan • Day 2 • Stop 1: MH098 ~ Moy Summerhill coillte
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3494e5c78be41d2d04dc76738d7352a5.setIcon(icon_526bfcfd858da373ee61a8ef88d58de5);
+            
+    
+            var poly_line_3b3abd860f0b65d74ecb48a11aa93136 = L.polyline(
+                [[53.46896095, -6.756407078], [53.51686552, -6.413618816]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_99744b926518668b32d84adee167d7ef = L.marker(
+                [53.51686552, -6.413618816],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_5c0ba3f53bb9065eb44ac91b091ba325 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_99744b926518668b32d84adee167d7ef.bindTooltip(
+                `<div>
+                     Dejan • Day 2 • Stop 2: MH127 ~ Ashbourne Ind. Estate
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_99744b926518668b32d84adee167d7ef.setIcon(icon_5c0ba3f53bb9065eb44ac91b091ba325);
+            
+    
+            var poly_line_d95e0f7eca2bebe7fe33e2cb9202b06b = L.polyline(
+                [[53.51686552, -6.413618816], [53.64707238, -6.494073533]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_5b411f131ae9a868a64d7e505d06fe55 = L.marker(
+                [53.64707238, -6.494073533],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_d0d17621dbdce8ea82382e57dc5e3726 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5b411f131ae9a868a64d7e505d06fe55.bindTooltip(
+                `<div>
+                     Dejan • Day 2 • Stop 3: MH085 ~ Sicily Duleek Co Meath
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b411f131ae9a868a64d7e505d06fe55.setIcon(icon_d0d17621dbdce8ea82382e57dc5e3726);
+            
+    
+            var poly_line_0e187532a7be84a24da636cf4984e7c3 = L.polyline(
+                [[53.64707238, -6.494073533], [53.67174755, -6.54875679]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_bc2d98a0c6f3432db6160973eb987e8a = L.marker(
+                [53.67174755, -6.54875679],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_a29c2626f796de564680eeef29061c97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_bc2d98a0c6f3432db6160973eb987e8a.bindTooltip(
+                `<div>
+                     Dejan • Day 2 • Stop 4: MH086 ~ Thurstianstown Bauparc Navan Co. meath
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bc2d98a0c6f3432db6160973eb987e8a.setIcon(icon_a29c2626f796de564680eeef29061c97);
+            
+    
+            var poly_line_44a2a2d6f8a3ec088856a5220eb81aba = L.polyline(
+                [[53.67174755, -6.54875679], [53.639433, -6.670581]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_387efb1390f317d6e630e367feb43eac = L.marker(
+                [53.639433, -6.670581],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_93da42d0869a9fbb54ba0ca1bcf13372 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_387efb1390f317d6e630e367feb43eac.bindTooltip(
+                `<div>
+                     Dejan • Day 2 • Stop 5: MH063 ~ Navan R.F.C.
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_387efb1390f317d6e630e367feb43eac.setIcon(icon_93da42d0869a9fbb54ba0ca1bcf13372);
+            
+    
+            var poly_line_6b106bc56940128989940f0bbc434a9d = L.polyline(
+                [[53.639433, -6.670581], [53.62860598, -6.738793595]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_4cfe7154bac4126e25536570d5776786 = L.marker(
+                [53.62860598, -6.738793595],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_4711c30e65e6e68132e06031a1003b3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_4cfe7154bac4126e25536570d5776786.bindTooltip(
+                `<div>
+                     Dejan • Day 2 • Stop 6: MH074 ~ Mullaghamore Athboy Co. Meath
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4cfe7154bac4126e25536570d5776786.setIcon(icon_4711c30e65e6e68132e06031a1003b3c);
+            
+    
+            var poly_line_107af92b409399867e8b79e050497444 = L.polyline(
+                [[53.62860598, -6.738793595], [53.85110937, -6.675371883]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_d092d78e0f7673ad811b7d5bc9d8cd02 = L.marker(
+                [53.85110937, -6.675371883],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_3fc8bffac9bdbbe34cfd14f7fef97741 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_d092d78e0f7673ad811b7d5bc9d8cd02.bindTooltip(
+                `<div>
+                     Dejan • Day 3 • Stop 1: MH072 ~ Drumran Hill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d092d78e0f7673ad811b7d5bc9d8cd02.setIcon(icon_3fc8bffac9bdbbe34cfd14f7fef97741);
+            
+    
+            var poly_line_3cdde6876559e32d95166f7ae9a24c2c = L.polyline(
+                [[53.85110937, -6.675371883], [54.06294, -7.01796]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_f77e4d16d66b8084d4a68471d3e68551 = L.marker(
+                [54.06294, -7.01796],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_54bedddf965b36b1378eff03b4d77e3b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f77e4d16d66b8084d4a68471d3e68551.bindTooltip(
+                `<div>
+                     Dejan • Day 3 • Stop 2: CN061 ~ Aghagashlan Clough Cootehill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f77e4d16d66b8084d4a68471d3e68551.setIcon(icon_54bedddf965b36b1378eff03b4d77e3b);
+            
+    
+            var poly_line_1272f3079127702caba87c9149e44cbe = L.polyline(
+                [[54.06294, -7.01796], [54.01511034, -7.107124453]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_08161d45ef8830f6a871c86e5148e106 = L.marker(
+                [54.01511034, -7.107124453],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_a2b0abc82a9e1604a36fdae36df5d274 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_08161d45ef8830f6a871c86e5148e106.bindTooltip(
+                `<div>
+                     Dejan • Day 3 • Stop 3: CN059 ~ Greaghnacross Cootehill
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_08161d45ef8830f6a871c86e5148e106.setIcon(icon_a2b0abc82a9e1604a36fdae36df5d274);
+            
+    
+            var poly_line_de5fb5022e872cab0ba71bdbdc557e75 = L.polyline(
+                [[54.01511034, -7.107124453], [54.06078187, -7.264450589]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_45b05e969c5b39d88790881f9af23860 = L.marker(
+                [54.06078187, -7.264450589],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_20bfb6bb434c177bb93d5ca1d7cd49dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_45b05e969c5b39d88790881f9af23860.bindTooltip(
+                `<div>
+                     Dejan • Day 3 • Stop 4: CN026 ~ Coolcanadas Ballyhaise Kilmacnoran
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_45b05e969c5b39d88790881f9af23860.setIcon(icon_20bfb6bb434c177bb93d5ca1d7cd49dc);
+            
+    
+            var poly_line_5271ae51eaabeef16806f9404f2fa1e2 = L.polyline(
+                [[54.06078187, -7.264450589], [54.09906702, -7.474407203]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_5b49f59d3b379345859d3dca79c7713e = L.marker(
+                [54.09906702, -7.474407203],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_0e8bfe6185d08929292732e0c961d3b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_5b49f59d3b379345859d3dca79c7713e.bindTooltip(
+                `<div>
+                     Dejan • Day 3 • Stop 5: CN051 ~ Drumacon Kilconny Belturbet
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b49f59d3b379345859d3dca79c7713e.setIcon(icon_0e8bfe6185d08929292732e0c961d3b7);
+            
+    
+            var poly_line_8e0c2285304e9a6f9802333ebfbf7ef3 = L.polyline(
+                [[54.09906702, -7.474407203], [54.1746747, -7.815759297]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_8942095f9b5db3693a073749deeec62b = L.marker(
+                [54.1746747, -7.815759297],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_cf9d28108f9938d5dacf0b9bbee690e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_8942095f9b5db3693a073749deeec62b.bindTooltip(
+                `<div>
+                     Dejan • Day 3 • Stop 6: CN011 ~ Bellavalley Gap Belavalley Upper T/L Swanlinbar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8942095f9b5db3693a073749deeec62b.setIcon(icon_cf9d28108f9938d5dacf0b9bbee690e7);
+            
+    
+            var poly_line_cbc98706e23967b773be3f370d4b297c = L.polyline(
+                [[54.1746747, -7.815759297], [54.27238703, -7.920266668]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_e49f8014e2c88c518b90b46306e93445 = L.marker(
+                [54.27238703, -7.920266668],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_6345a43f158770a7f7c99bc95c1d5200 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_e49f8014e2c88c518b90b46306e93445.bindTooltip(
+                `<div>
+                     Dejan • Day 4 • Stop 1: CNGFR ~ Glenfarne Unshogagh Blacklion
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e49f8014e2c88c518b90b46306e93445.setIcon(icon_6345a43f158770a7f7c99bc95c1d5200);
+            
+    
+            var poly_line_58f4b2ca6a94cd996673be8c371482b6 = L.polyline(
+                [[54.27238703, -7.920266668], [53.95050469, -7.40450845]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_a40faa6659d77b9b073768d92337883c = L.marker(
+                [53.95050469, -7.40450845],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_68b51405c565f8b0774f78eb2c73debe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_a40faa6659d77b9b073768d92337883c.bindTooltip(
+                `<div>
+                     Dejan • Day 4 • Stop 2: CN050 ~ Cauhoo Bellanagh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a40faa6659d77b9b073768d92337883c.setIcon(icon_68b51405c565f8b0774f78eb2c73debe);
+            
+    
+            var poly_line_4850bb20e4bdddde2cb85db035295f62 = L.polyline(
+                [[53.95050469, -7.40450845], [53.95395061, -7.294268363]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_0f43d1410643e784f470dda58b9611ea = L.marker(
+                [53.95395061, -7.294268363],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_229160bfd40aa0eac70b9bb860041575 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_0f43d1410643e784f470dda58b9611ea.bindTooltip(
+                `<div>
+                     Dejan • Day 4 • Stop 3: CNSGA ~ Slieve Glah Pollakeel
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0f43d1410643e784f470dda58b9611ea.setIcon(icon_229160bfd40aa0eac70b9bb860041575);
+            
+    
+            var poly_line_ab8d9abcf085ed0e9f94d2f569a75920 = L.polyline(
+                [[53.95395061, -7.294268363], [53.87283322, -7.181338747]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_91e52ef1348a8707d6970ee1dbaea39f = L.marker(
+                [53.87283322, -7.181338747],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_30ea8dc4e7a2f2c945e5ea58c77b9259 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_91e52ef1348a8707d6970ee1dbaea39f.bindTooltip(
+                `<div>
+                     Dejan • Day 4 • Stop 4: CN009 ~ Lismeen Ballyjamesduff
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_91e52ef1348a8707d6970ee1dbaea39f.setIcon(icon_30ea8dc4e7a2f2c945e5ea58c77b9259);
+            
+    
+            var poly_line_61f845a616d4c861498e82185012ea8c = L.polyline(
+                [[53.87283322, -7.181338747], [53.66576746, -7.020002989]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_46f66911096a64df950d235ffd9e6db7 = L.marker(
+                [53.66576746, -7.020002989],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_99c7842f44c0e73222d5844ae866d744 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_46f66911096a64df950d235ffd9e6db7.bindTooltip(
+                `<div>
+                     Dejan • Day 4 • Stop 5: WH018 ~ Clonmellon Linhurst Manufacturing
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_46f66911096a64df950d235ffd9e6db7.setIcon(icon_99c7842f44c0e73222d5844ae866d744);
+            
+    
+            var poly_line_ab63b5b6b88cd57e76afb34e35809d67 = L.polyline(
+                [[53.66576746, -7.020002989], [53.53989455, -7.282937491]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var marker_f13a85de95d7e7ec0602511e4cafca4c = L.marker(
+                [53.53989455, -7.282937491],
+                {
+}
+            ).addTo(feature_group_4f436757d9541d66f25f603971d59a18);
+        
+    
+            var icon_6998de50aa5981268a3bd92fa15eaf22 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+            marker_f13a85de95d7e7ec0602511e4cafca4c.bindTooltip(
+                `<div>
+                     Dejan • Day 4 • Stop 6: WH038 ~ Macetown MullingarCo. Westmeath
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f13a85de95d7e7ec0602511e4cafca4c.setIcon(icon_6998de50aa5981268a3bd92fa15eaf22);
+            
+    
+            feature_group_4f436757d9541d66f25f603971d59a18.addTo(map_76edbdf3b4e9286ee2092ea15829d0ff);
+        
+    
+            var layer_control_9e7d44ec5f5c8b7440c08615574c42b0_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_a73f31539a47695a588702faea97bb62,
+                },
+                overlays :  {
+                    "Claire" : feature_group_8e9eb1cb334bc4f28af36d9929401044,
+                    "Mikie" : feature_group_ccd395e196552fda63860145145bd3c1,
+                    "Dejan" : feature_group_4f436757d9541d66f25f603971d59a18,
+                },
+            };
+            let layer_control_9e7d44ec5f5c8b7440c08615574c42b0 = L.control.layers(
+                layer_control_9e7d44ec5f5c8b7440c08615574c42b0_layers.base_layers,
+                layer_control_9e7d44ec5f5c8b7440c08615574c42b0_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_76edbdf3b4e9286ee2092ea15829d0ff);
+
+        
+</script>
+</html>
